@@ -9,7 +9,7 @@
         <input type="file" name="avatar"/>
         <input type="submit" name="uploadclick" value="Upload"/>
     </form>
-   <?php
+<?php
 $target_dir = "upload/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
