@@ -72,6 +72,7 @@
             <li><a href="#education">Đào tạo</a></li>
             <li><a href="#news">Du lịch</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="uploadfile.php">Up load file</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -90,7 +91,7 @@
               <h1 id="typed"></h1>
             </div>
             <div class="buttons">
-              <a href="#" class="def-btn">More About Me</a>
+                <a href="Detail.html" class="def-btn">More About Me</a>
             </div>
             <div class="buttons">
               <a href="#" class="def-btn">Download Resume</a>
@@ -219,7 +220,7 @@
                   </div>
                 </div>
                 <div class="image">
-                  <img src="assets/images/vietHan.jpg" alt="Portfolio image">
+                    <img src="assets/images/VietHan.jpg" alt="Portfolio image">
                 </div>
               </div><!--/.content -->
             </a>
@@ -261,7 +262,7 @@
                   </div>
                 </div>
                 <div class="image">
-                  <img src="assets/images/greenwich.png" alt="Portfolio image">
+                    <img src="assets/images/Greenwich.png" alt="Portfolio image">
                 </div>
               </div><!--/.content -->
             </a>
@@ -282,7 +283,7 @@
                   </div>
                 </div>
                 <div class="image">
-                  <img src="assets/images/btec.png" alt="Portfolio image">
+                    <img src="assets/images/Btec.png" alt="Portfolio image">
                 </div>
               </div><!--/.content -->
             </a>
@@ -761,7 +762,11 @@
           <h1><span class="textbold">Visit me</span> for some coffee</h1>
         </div>
       </div>
-      <div class="map-canvas" id="map-canvas"></div>
+      <!-- <div class="map-canvas" id="map-canvas"></div>-->
+      <div id="map" style="width:500px;height:500px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15342.38367012175!2d108.2496147!3d15.98246485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1295cb3d313469c9!2sKorea+-+Vietnam+Friendship+Information+Technology+College!5e0!3m2!1sen!2s!4v1562567456244!5m2!1sen!2s" 
+                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </section>
     <!-- Map Section End  -->
 
