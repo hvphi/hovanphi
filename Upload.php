@@ -1,5 +1,5 @@
 <?php
-define ('MAX_FILE_SIZE', 1000000);
+define ('MAX_FILE_SIZE', 10000000);
 
 $permitted = array('image/gif', 'image/jpeg', 'image/png', 'image/pjpeg', 'text/plain'); //Set array of permittet filetypes
 $error = true; //Define an error boolean variable
@@ -19,14 +19,14 @@ if  ($_FILES['file']['size'] > 0 && $_FILES['file']['size'] <= MAX_FILE_SIZE) //
 {
     if( $error == false ) //If the file is permitted
     {
-        move_uploaded_file($_FILES["file"]["tmp_name"], "assets/" . $_FILES["file"]["name"]); //Move the file from the temporary position till a new one.
+        move_uploaded_file($_FILES["file"]["tmp_name"], "upload/" . $_FILES["file"]["name"]); //Move the file from the temporary position till a new one.
               if( $filetype == "image" ) //If the filetype is image, show it!
               {
                 echo '<img src="upload/'.$_FILES["file"]["name"].'">';
               }
               elseif($filetype == "text") //If its text, print it.
               {
-                echo nl2br( file_get_contents("assets/".$_FILES["file"]["name"]) );
+                echo nl2br( file_get_contents("upload/".$_FILES["file"]["name"]) );
               }
 
     }
