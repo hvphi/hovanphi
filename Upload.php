@@ -42,10 +42,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['userfile']) && $_FILES
 }
 else {
 	?>
-	<h2>Upload a file</h2>
-        <form enctype="multipart/form-data" action="<?=$_SERVER['PHP_SELF']?>" method="POST">
-            <input name="userfile" type="file"><input type="submit" value="Upload">
-        </form>
+        <html>
+            <head><meta charset="UTF-8"></head>
+            <body>
+        	<h2>Upload a file</h2>
+                <form enctype="multipart/form-data" action="<?=$_SERVER['PHP_SELF']?>" method="POST">
+                    <input name="userfile" type="file"><input type="submit" value="Upload">
+                </form>
+            </body>
+        </html>
 	<?php
     };	
 ?>
