@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<form action="upload.php" method="post" enctype="multipart/form-data">
+    <form action="Upload.php" method="post" enctype="multipart/form-data">
     Select image to upload:
     <input type="file" name="fileToUpload" id="fileToUpload">
     <input type="submit" value="Upload Image" name="submit">
@@ -11,7 +11,7 @@
 </body>
 </html>
 <?php
-$target_dir = "uploads/";
+$target_dir = "upload/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
