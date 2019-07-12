@@ -88,9 +88,10 @@
             <div class="subtitle">
               <p>Tôi là Hồ Văn Phi</p>
             </div>
-            <div class="title">
+            <!--<div class="title">
               <h1 id="typed"></h1>
             </div>
+            -->
             <div class="buttons">
                 <a href="Detail.html" class="def-btn">More About Me</a>
             </div>
