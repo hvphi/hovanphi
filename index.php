@@ -73,7 +73,7 @@
             <li><a href="#news">Du lịch</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="Upload.php">Up load file</a></li>
-            <li><a href="dowloadfile.php">Download File</a></li>
+            <li><a href="https://192.168.0.45/mod/attendance/view.php?id=3">Diem danh</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
